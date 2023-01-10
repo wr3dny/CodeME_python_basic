@@ -27,17 +27,20 @@ def user_car(brand, model, year, parts):
     }
     return car_dict
 
+
 def car_age(year, brand):
     import datetime
     now = datetime.datetime.now().year
     age = now - year
     return age
 
+
 def original_parts(parts):
     if parts == 'Yes':
         return True
     else:
         return False
+
 
 def main():
     b = input('What\'s Your car brand: ')

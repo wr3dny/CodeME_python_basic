@@ -9,8 +9,10 @@ def FooBar(n):
         else:
             print(i)
 
+
 def main():
     FooBar(15)
+
 
 if __name__ == '__main__':
     main()

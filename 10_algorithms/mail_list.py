@@ -1,6 +1,6 @@
 with open('mail_list.txt') as fopen:
     content = fopen.readlines(1)
-    content = content.remove("\")
+    content = content.remove("\'")
 
 print(content)
 

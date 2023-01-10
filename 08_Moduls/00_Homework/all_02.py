@@ -26,8 +26,8 @@ def main():
     # print(f'x2 = {x2}')
     print(dd)
 
-# if __name__ == '__main__':
-#     main()
+if __name__ == '__main__':
+    main()
 
 main()
 
